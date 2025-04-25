@@ -1,0 +1,85 @@
+import { Row, Col } from 'antd';
+import TourCard from './TourCard';
+import './TravelRoutes.css';
+
+const TravelRoutes = () => {
+  const tours = [
+    {
+      title: "Imperial Beijing Tour",
+      rating: 4.8,
+      reviewCount: 128,
+      image: "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?auto=format&fit=crop&w=800&q=80",
+      description: "Explore the imperial history of Beijing, including the Forbidden City and Great Wall.",
+      duration: "5 days",
+      destinations: [
+        "Forbidden City",
+        "Great Wall",
+        "Temple of Heaven"
+      ],
+      highlights: [
+        "Guided tour of the Forbidden City",
+        "Great Wall hiking experience",
+        "Traditional Beijing duck dinner",
+        "Temple of Heaven visit"
+      ]
+    },
+    {
+      title: "Shanghai Medical & Shopping",
+      rating: 4.9,
+      reviewCount: 256,
+      image: "https://images.unsplash.com/photo-1474181487882-5abf3f0ba6c2?auto=format&fit=crop&w=800&q=80",
+      description: "Combine medical check-ups with luxury shopping in Shanghai.",
+      duration: "7 days",
+      destinations: [
+        "Shanghai Medical Center",
+        "Nanjing Road",
+        "The Bund"
+      ],
+      highlights: [
+        "Comprehensive health check-up",
+        "VIP shopping experience",
+        "The Bund night tour",
+        "Luxury spa treatment"
+      ]
+    },
+    {
+      title: "Hangzhou Cultural Experience",
+      rating: 4.7,
+      reviewCount: 96,
+      image: "https://img.ltwebstatic.com/v4/j/ccc/2025/04/25/03/1745566813d6f2678944a88ca59927dd96aea309f0.jpg",
+      description: "Immerse yourself in the cultural beauty of Hangzhou.",
+      duration: "4 days",
+      destinations: [
+        "West Lake",
+        "Lingyin Temple",
+        "Tea Plantations"
+      ],
+      highlights: [
+        "West Lake boat tour",
+        "Traditional tea ceremony",
+        "Buddhist temple visit",
+        "Local cuisine experience"
+      ]
+    }
+  ];
+
+  return (
+    <div className="routes-page">
+      <div className="hero-section">
+        <h1>Travel Routes</h1>
+        <p>Discover our carefully planned routes combining the best of Chinese culture, healthcare, and shopping</p>
+      </div>
+      <div className="routes-container">
+        <Row gutter={[24, 24]} className="tour-cards">
+          {tours.map((tour, index) => (
+            <Col key={index} xs={24} md={8}>
+              <TourCard tour={tour} />
+            </Col>
+          ))}
+        </Row>
+      </div>
+    </div>
+  );
+};
+
+export default TravelRoutes; 

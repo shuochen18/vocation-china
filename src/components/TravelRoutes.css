@@ -1,0 +1,52 @@
+.routes-page {
+  width: 100%;
+}
+
+.hero-section {
+  background-color: #1a1f2e;
+  padding: 80px 20px;
+  text-align: center;
+  color: white;
+}
+
+.hero-section h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.hero-section p {
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.9);
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.routes-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 60px 20px;
+  background-color: #ffffff;
+}
+
+.tour-cards {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .hero-section {
+    padding: 60px 20px;
+  }
+  
+  .hero-section h1 {
+    font-size: 32px;
+  }
+  
+  .hero-section p {
+    font-size: 16px;
+  }
+  
+  .routes-container {
+    padding: 40px 20px;
+  }
+} 

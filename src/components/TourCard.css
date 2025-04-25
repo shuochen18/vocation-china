@@ -1,0 +1,215 @@
+.tour-card {
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+.tour-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+}
+
+.card-image {
+  width: 100%;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 12px 12px 0 0;
+}
+
+.card-content {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  /* height: 100%; */
+}
+
+.tour-title {
+  font-size: 22px;
+  color: #1a1f2e;
+  margin-bottom: 12px;
+  font-weight: 600;
+  text-align: center;
+  height: 80px;
+}
+
+.price {
+  margin-bottom: 20px;
+}
+
+.amount {
+  color: #ffc107;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.per-person {
+  color: #666;
+  margin-left: 5px;
+}
+
+.description {
+  color: #666;
+  margin: 16px 0;
+  line-height: 1.6;
+  text-align: center;
+  flex-grow: 0;
+  height: 60px;
+}
+
+.card-details {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 400px;
+  /* margin: 12px 0; */
+}
+
+.section-title {
+  font-size: 16px;
+  color: #1a1f2e;
+  margin: 10px 0 8px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.list-item {
+  color: #666;
+  margin-bottom: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  text-align: center;
+}
+
+.ant-list {
+  text-align: center;
+}
+
+.ant-list-item {
+  padding: 4px 0;
+  justify-content: center;
+}
+
+.book-now {
+  width: 100%;
+  height: 44px;
+  background-color: #1a1f2e;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 20px;
+}
+
+.book-now:hover {
+  background-color: #2c3448;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.contact-options {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 8px 0;
+}
+
+.contact-button {
+  height: 44px !important;
+  font-size: 15px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.contact-button.whatsapp {
+  background-color: #25D366 !important;
+  border-color: #25D366 !important;
+}
+
+.contact-button.email {
+  background-color: #DB4437 !important;
+  border-color: #DB4437 !important;
+}
+
+.contact-button.phone {
+  background-color: #4285F4 !important;
+  border-color: #4285F4 !important;
+}
+
+/* 自定义 Modal 样式 */
+.ant-modal-content {
+  border-radius: 12px;
+}
+
+.ant-modal-header {
+  text-align: center;
+}
+
+.ant-modal-title {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.ant-modal-close {
+  margin: 12px !important;
+}
+
+.rating-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4px;
+}
+
+.rating-score {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+.star {
+  line-height: 1;
+  margin-top: 2px;
+}
+.score {
+  font-size: 18px;
+  font-weight: 500;
+  color: #1a1f2e;
+  line-height: 1;
+}
+
+.ant-rate {
+  font-size: 16px;
+  color: #00b8a9;
+  line-height: 1;
+}
+
+.ant-rate-star:not(:last-child) {
+  margin-right: 4px;
+}
+
+.review-count {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  color: #666;
+  font-size: 13px;
+}
+
+.review-count .count {
+  font-weight: 500;
+}
+
+.review-count .text {
+  color: #666;
+} 

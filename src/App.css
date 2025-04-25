@@ -1,0 +1,170 @@
+#root {
+  margin: 0 auto;
+  text-align: center;
+  height: 100vh;
+}
+
+.logo {
+  padding: 24px;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 32px #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 32px #61dafbaa);
+}
+
+
+.card {
+  padding: 32px;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.routes-container {
+  padding: 40px;
+  background-color: #fff;
+  color: white;
+  flex: 1;
+  width: 100%;
+}
+
+.routes-header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.routes-header h1 {
+  font-size: 40px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.routes-header p {
+  font-size: 19px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.tour-cards {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.main-content {
+  margin-top: 60px;
+  flex: 1;
+  width: 100%;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+/* 添加全局基础样式 */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+/* 标准化标题大小 */
+h1 {
+  font-size: 32px;
+  line-height: 40px;
+}
+
+h2 {
+  font-size: 28px;
+  line-height: 36px;
+}
+
+h3 {
+  font-size: 24px;
+  line-height: 32px;
+}
+
+h4 {
+  font-size: 20px;
+  line-height: 28px;
+}
+
+h5 {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+h6 {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+/* 标准化间距 */
+p {
+  margin: 0 0 16px;
+}
+
+/* 响应式调整 */
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  h2 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  h3 {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  h4 {
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+  h5 {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  h6 {
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .main-content {
+    margin-top: 60px;
+  }
+
+  .routes-container {
+    padding: 40px 20px;
+  }
+}
+
+/* 首先确保所有元素都使用 border-box */
+* {
+  box-sizing: border-box;
+}

@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Start your China journey from here</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+    <script>
+      // 设置 rem 基准值
+      (function() {
+        const htmlDom = document.getElementsByTagName('html')[0];
+        const width = document.documentElement.clientWidth || document.body.clientWidth;
+        htmlDom.style.fontSize = '16px'; // 设置基准值为 16px
+      })();
+    </script>
+  </body>
+</html>
