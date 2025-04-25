@@ -1,6 +1,6 @@
-module.exports = {
+export default {
   plugins: {
-    '@tailwindcss/postcss': {},
+    tailwindcss: {},
     autoprefixer: {},
     'postcss-pxtorem': {
       rootValue: 16, // 1rem = 16px
@@ -12,5 +12,5 @@ module.exports = {
       minPixelValue: 0, // 小于或等于0px则不进行转换
       exclude: /node_modules/i // 排除 node_modules 目录下的文件
     }
-  },
+  }
 }
