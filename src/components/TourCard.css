@@ -86,6 +86,7 @@
   justify-content: center;
   gap: 6px;
   text-align: center;
+  list-style: none;
 }
 
 .ant-list {
@@ -133,18 +134,18 @@
 }
 
 .contact-button.whatsapp {
-  background-color: #25D366 !important;
-  border-color: #25D366 !important;
+  background-color: #34B7A7 !important;
+  border-color: #34B7A7 !important;
 }
 
 .contact-button.email {
-  background-color: #DB4437 !important;
-  border-color: #DB4437 !important;
+  background-color: #FF6B6B !important;
+  border-color: #FF6B6B !important;
 }
 
 .contact-button.phone {
-  background-color: #4285F4 !important;
-  border-color: #4285F4 !important;
+  background-color: #4A90E2 !important;
+  border-color: #4A90E2 !important;
 }
 
 /* 自定义 Modal 样式 */
@@ -162,7 +163,9 @@
 }
 
 .ant-modal-close {
-  margin: 12px !important;
+  position: absolute !important;
+  right: 2px !important;
+  top: 2px !important;
 }
 
 .rating-section {
@@ -212,4 +215,4 @@
 
 .review-count .text {
   color: #666;
-} 
+}
