@@ -76,7 +76,7 @@ const TourCard = ({ tour }) => {
           <Button 
             type="primary" 
             icon={<WhatsAppOutlined />}
-            onClick={() => window.open('https://wa.me/8612345678900', '_blank')}
+            onClick={() => window.open('https://wa.me/17815214920', '_blank')}
             className="contact-button whatsapp"
           >
             Contact via WhatsApp
@@ -84,18 +84,10 @@ const TourCard = ({ tour }) => {
           <Button 
             type="primary" 
             icon={<MailOutlined />}
-            onClick={() => window.location.href = 'mailto:info@chinatravel.com'}
+            onClick={() => window.location.href = 'mailto:dreamexperience@126.com'}
             className="contact-button email"
           >
             Contact via Email
-          </Button>
-          <Button 
-            type="primary" 
-            icon={<PhoneOutlined />}
-            onClick={() => window.location.href = 'tel:+8612345678900'}
-            className="contact-button phone"
-          >
-            Contact via Phone
           </Button>
         </div>
       </Modal>
