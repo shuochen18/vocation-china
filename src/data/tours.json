@@ -1,61 +1,34 @@
 {
   "tours": [
     {
-      "title": "Imperial Beijing Tour",
+      "title": "Shopping Escapes",
       "rating": 4.8,
       "reviewCount": 128,
-      "image": "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?auto=format&fit=crop&w=800&q=80",
-      "description": "Explore the imperial history of Beijing, including the Forbidden City and Great Wall.",
-      "duration": "5 days",
-      "destinations": [
-        "Forbidden City",
-        "Great Wall",
-        "Temple of Heaven"
-      ],
-      "highlights": [
-        "Guided tour of the Forbidden City",
-        "Great Wall hiking experience",
-        "Traditional Beijing duck dinner",
-        "Temple of Heaven visit"
-      ]
+      "image": "https://img.ltwebstatic.com/v4/j/ccc/2025/05/06/4f/17465169736d980f07f89d722f85b306e0558f57ad.jpg",
+      "description": "Your Personal China Buying Hub: Source Smart, Ship Smarter - Harness China's industrial edge – we handle the logistics heavy-lifting",
+      "details": "🛍️ **Curate Freely**\nWhether bargaining at Yiwu markets or browsing 1688.com from your hotel:\n✓ **1m³ Storage Vault** - Collect purchases across cities (physical/online)\n✓ **AI Inventory Scanner** - WhatsApp us a product photo to auto-log into your vault\n✓ **Quality Control Lounge** - Inspect goods at our Shanghai/Shenzhen hubs\n\n🚚 **Ultimate Shipping Flexibility**\nWhen ready to depart:\n◈ **Suitcase Mode** - We compress/package for airline compliance (maximize 23kg×2)\n◈ **Sea Freight Assist** - We negotiate with the company for you\n\n**Why Global Shoppers Win**\n» **Unmatched Price Points** - Pay factory-floor prices:\n*Example: Shenzhen-made 8K drones at 1/3 US retail*\n» **Tech-Forward Craftsmanship** - Access R&D-driven products 6-8 months before global release\n» **Zero Purchase Pressure** - Need returns? We negotiate with Chinese sellers for you\n\n**\"From Night Markets to Cloud Warehousing – Your China Buys, Your Rules\"Build Your Cross-Border Cart**"
     },
     {
-      "title": "Shanghai Medical & Shopping",
+      "title": "Medical Journeys",
       "rating": 4.9,
       "reviewCount": 256,
-      "image": "https://images.unsplash.com/photo-1474181487882-5abf3f0ba6c2?auto=format&fit=crop&w=800&q=80",
-      "description": "Combine medical check-ups with luxury shopping in Shanghai.",
-      "duration": "7 days",
-      "destinations": [
-        "Shanghai Medical Center",
-        "Nanjing Road",
-        "The Bund"
-      ],
-      "highlights": [
-        "Comprehensive health check-up",
-        "VIP shopping experience",
-        "The Bund night tour",
-        "Luxury spa treatment"
-      ]
+      "image": "https://img.ltwebstatic.com/v4/j/ccc/2025/05/06/76/1746516976b662ac31da7a25f3752da0781735eb77.jpg",
+      "description": "Precision Care, Zero Waitlists: China's Medical Efficiency Redefined - Where proven treatments meet transparent pricing – no experimental procedures",
+      "details": "**Cost Transparency**\nSave 50-70% vs. Western private clinics\n\n**Certified Expertise**\nOnly JCI-accredited hospitals:\n◈ Beijing - United Family Healthcare (15yr+ expat track record)\n◈ Shanghai - ParkwayHealth (International surgeon panels)\n◈ Xi'an - ADX Dental Hospital (German-trained implant specialists)\n\n**Your Stress-Free Journey**\n1️⃣ **Pre-Consult**\nSend medical records via encrypted portal → Get 3 hospital quotes in 72hrs\n2️⃣ **Visa-to-Recovery**\nWe handle:\n✓ Airport pick-up → Hospital admission\n✓ Post-op recovery retreats (optional)\n3️⃣ **Follow-Up Assurance**\nFree 90-day telemedicine with surgical team (Timezone-adjusted)\n\n**\"Skip the Queue, Not the Quality\"**\nLimited slots: Only 12 non-emergency surgeries/month for personalized care"
     },
     {
-      "title": "Hangzhou Cultural Experience",
+      "title": "Pure Play Travel",
       "rating": 4.7,
       "reviewCount": 96,
-      "image": "https://img.ltwebstatic.com/v4/j/ccc/2025/04/25/03/1745566813d6f2678944a88ca59927dd96aea309f0.jpg",
-      "description": "Immerse yourself in the cultural beauty of Hangzhou.",
-      "duration": "4 days",
-      "destinations": [
-        "West Lake",
-        "Lingyin Temple",
-        "Tea Plantations"
-      ],
-      "highlights": [
-        "West Lake boat tour",
-        "Traditional tea ceremony",
-        "Buddhist temple visit",
-        "Local cuisine experience"
-      ]
+      "image": "https://img.ltwebstatic.com/v4/j/ccc/2025/05/06/10/1746517080ea5065f17b90143c5c0a03463a4f706d.jpg",
+      "description": "Your Rhythm, Our Roadmap: China Unscripted - No cookie-cutter tours – craft a journey as unique as your curiosity",
+      "details": "🗺️ **Hyper-Personalized Routing**\nMix & match cities like playlists:\n✓ **Beijing** - Forbidden City sunrise access + rooftop dumpling dinners\n✓ **Chengdu** - Panda keeper shadowing & Sichuan opera backstage passes\n✓ **Guilin** - Li River bamboo rafting with silent disco headphones\n✓ **Your Wildcard** - Add any 4th-tier city (We handle the logistics)\n\n🏨 **Four-Star+ Sanctuary Selection in all cities**\n\n🚐 **Door-to-Door Fluidity**\nFrom touchdown to liftoff:\n◈ Private driver transfers (Child seats available)\n◈ Bullet train tickets pre-loaded on your WeChat\n◈ Hotel check-ins bypassed via facial recognition setup\n\n**\"Pause, Rewind, Fast-Forward – This is Your Story\"**\n*Free 60-min itinerary consult – No deposit required*"
     }
-  ]
+  ],
+  "essentials": {
+    "title": "Travel Essentials",
+    "description": "From Landing to Connected: Full Legal Compliance, Zero Hassle - China's SIM card laws made stress-free with human-guided solutions\n\n**Your On-Ground Tech Squad**\n1️⃣ **Airport Meet & Greet**\nLook for our orange-vested concierge at arrivals (holding your name sign).\n\n2️⃣ **Official SIM Registration Journey**\nWe accompany you to China Mobile's airport branch:\n✓ **Real-Name Assistance**: Our agent fills forms & translates for compliance\n✓ **Plan Customization**: Choose data packages via visual menu (No Mandarin needed)\n✓ **Instant Test Call**: Confirm connectivity before leaving counter\n\n3️⃣ **Digital Life Setup**\nWhile your SIM processes, we:\n✓ Create your WeChat account\n✓ Bind Alipay to Visa/MasterCard using **UnionPay's \"TourCard\"**\n✓ Install **censorship-free VPN** (pre-configured on your phone)",
+    "originalPrice": "199",
+    "discountPrice": "149"
+}
 }

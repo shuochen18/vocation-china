@@ -1,17 +1,37 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { List, Modal, Button, Rate } from 'antd';
 import { WhatsAppOutlined, MailOutlined, PhoneOutlined, UserOutlined } from '@ant-design/icons';
+import ReactMarkdown from 'react-markdown';
 import './TourCard.css';
 
 const TourCard = ({ tour }) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
+  const [isHighlighted, setIsHighlighted] = useState(false);
+  const cardRef = useRef(null);
+
+  useEffect(() => {
+    const hash = window.location.hash.slice(1);
+    const shouldHighlight = (
+      (hash === 'shopping' && tour.title === 'Shopping Escapes') ||
+      (hash === 'medical' && tour.title === 'Medical Journeys') ||
+      (hash === 'play' && tour.title === 'Pure Play Travel')
+    );
+
+    setIsHighlighted(shouldHighlight);
+    
+    if (shouldHighlight && cardRef.current) {
+      const yOffset = -100; // 调整滚动位置，考虑导航栏高度
+      const y = cardRef.current.getBoundingClientRect().top + window.pageYOffset + yOffset;
+      window.scrollTo({ top: y, behavior: 'smooth' });
+    }
+  }, [tour.title]);
 
   if (!tour) {
     return null; // 如果没有数据，不渲染任何内容
   }
 
   return (
-    <div className="tour-card">
+    <div ref={cardRef} className={`tour-card ${isHighlighted ? 'highlighted' : ''}`}>
       <div className="card-image" style={{ backgroundImage: `url(${tour.image})` }} />
       <div className="card-content">
         <h2 className="tour-title">{tour.title}</h2>
@@ -36,28 +56,9 @@ const TourCard = ({ tour }) => {
         <p className="description">{tour.description}</p>
         
         <div className="card-details">
-          <h3 className="section-title">Duration:</h3>
-          <p className="list-item">{tour.duration}</p>
-          
-          <h3 className="section-title">Destinations:</h3>
-          <List
-            dataSource={tour.destinations}
-            renderItem={item => (
-              <div className="list-item">
-                <span>{item}</span>
-              </div>
-            )}
-          />
-          
-          <h3 className="section-title">Highlights:</h3>
-          <List
-            dataSource={tour.highlights}
-            renderItem={item => (
-              <div className="list-item">
-                <span>{item}</span>
-              </div>
-            )}
-          />
+          <div className="markdown-content">
+            <ReactMarkdown breaks>{tour.details}</ReactMarkdown>
+          </div>
         </div>
         
         <button className="book-now" onClick={() => setIsModalOpen(true)}>
@@ -95,4 +96,4 @@ const TourCard = ({ tour }) => {
   );
 };
 
-export default TourCard; 
+export default TourCard;

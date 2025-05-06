@@ -28,9 +28,8 @@
 .routes-container {
   padding: 40px;
   background-color: #fff;
-  color: white;
   flex: 1;
-  width: 100%;
+  width: 100vw;
   display: flex;
   justify-content: center;
 }

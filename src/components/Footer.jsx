@@ -1,14 +1,8 @@
 import React from 'react';
-import { useTranslation } from 'react-i18next';
-import { Layout, Row, Col, Typography } from 'antd';
 import { Link } from 'react-router-dom';
 import './Footer.css';
 
-const { Footer: AntFooter } = Layout;
-const { Text, Link: TextLink } = Typography;
-
 const Footer = () => {
-  const { t } = useTranslation();
 
   return (
     <footer className="footer">
@@ -31,9 +25,9 @@ const Footer = () => {
         <div className="footer-section">
           <h3>Contact</h3>
           <ul>
-            <li>Email: info@chinatravel.com</li>
-            <li>Phone: +86 123 4567 8900</li>
-            <li>WeChat: ChinaTravel</li>
+            <li>Email: dreamexperience@126.com</li>
+            <li>Wechat: (1)781-521-4920</li>
+            <li>Whatsapp: (1)781-521-4920</li>
           </ul>
         </div>
 
